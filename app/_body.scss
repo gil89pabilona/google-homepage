@@ -1,0 +1,15 @@
+.body   {
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+
+    input {
+        margin-top: 20px;
+        width: 200%;
+        height: 35px;
+        border-radius: 20px;
+    }
+}

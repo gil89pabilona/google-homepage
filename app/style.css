@@ -1,0 +1,71 @@
+header {
+  padding: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+}
+
+nav a:click, nav a:visited {
+  color: gray;
+}
+
+nav a:not(:last-child) {
+  margin-left: 20px;
+}
+
+nav a img {
+  height: 30px;
+}
+
+.body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.body input {
+  margin-top: 20px;
+  width: 200%;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-fe {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

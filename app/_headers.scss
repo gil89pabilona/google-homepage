@@ -1,0 +1,23 @@
+header {
+    padding: 24px;
+}
+
+nav {
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        color: gray;
+
+        &:click, &:visited {
+            color: gray;
+        }
+
+        &:not(:last-child){
+            margin-left: 20px;
+        }
+
+        img {
+            height: 30px;
+        }
+    }
+}
